@@ -6,14 +6,113 @@
     <title>Mon Portfolio - Développeur Web</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="description" content="Portfolio de Zeineb Khaled, développeur web spécialisé en Java.">
+    <meta name="keywords" content="développeur web, Java, portfolio">
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center">Bienvenue sur mon portfolio</h1>
-        <p class="lead">Voici mes projets et expériences.</p>
-    </div>     
-    <a href="cv.pdf" download>Télécharger mon CV</a>
-   
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Mon Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#projects">Projets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Compétences</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section id="hero">
+            <h1 class="text-center">Bienvenue sur mon portfolio</h1>
+            <p class="lead text-center">Je suis Zeineb Khaled, développeur web spécialisé en Java.</p>
+        </section>
+        <section id="projects">
+            <h2>Mes Projets</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project">
+                        <h3>Gestion de Bibliothèque</h3>
+                        <p>Une application de gestion de bibliothèque qui permet aux utilisateurs de rechercher des livres, de les emprunter et de les retourner. Elle inclut également un système de gestion des utilisateurs.</p>
+                        <p><strong>Technologies :</strong> Java, JavaFX, MySQL</p>
+                        <p><strong>Fonctionnalités :</strong>
+                            <ul>
+                                <li>Interface utilisateur intuitive avec JavaFX.</li>
+                                <li>Gestion des utilisateurs avec des rôles (administrateur, utilisateur).</li>
+                                <li>Système de recherche de livres par titre, auteur ou genre.</li>
+                            </ul>
+                        </p>
+                        <a href="https://github.com/votre-projet" target="_blank">Voir le projet</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project">
+                        <h3>Système de Réservation de Billets</h3>
+                        <p>Une application web pour la réservation de billets de cinéma, avec une interface utilisateur pour choisir des films, des horaires et des sièges.</p>
+                        <p><strong>Technologies :</strong> Java, Servlet, JSP, MySQL</p>
+                        <p><strong>Fonctionnalités :</strong>
+                            <ul>
+                                <li>Système de paiement intégré.</li>
+                                <li>Choix de sièges en temps réel.</li>
+                                <li>Historique des réservations pour les utilisateurs.</li>
+                            </ul>
+                        </p>
+                        <a href="https://github.com/votre-projet" target="_blank">Voir le projet</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project">
+                        <h3>Application de Suivi de Fitness</h3>
+                        <p>Une application qui permet aux utilisateurs de suivre leurs activités physiques, de définir des objectifs de fitness et de visualiser leurs progrès.</p>
+                        <p><strong>Technologies :</strong> Java, Spring Boot, React, MongoDB</p>
+                        <p><strong>Fonctionnalités :</strong>
+                            <ul>
+                                <li>Suivi des activités physiques avec des graphiques de progression.</li>
+                                <li>Définition d'objectifs de fitness personnalisés.</li>
+                                <li>Notifications pour rappeler aux utilisateurs de rester actifs.</li>
+                            </ul>
+                        </p>
+                        <a href="https://github.com/votre-projet" target="_blank">Voir le projet</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Compétences</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Java, Spring Boot, JavaFX</li>
+                <li>PHP, Symfony</li>
+                <li>Python, Django</li>
+                <li>Git, GitHub</li>
+                <li>MySQL, MongoDB</li>
+                <li>React, Angular, Vue.js</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Vous pouvez me contacter à : <a href="mailto:khaledzeineb81@gmail.com">khaledzeineb81@gmail.com</a></p>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/zeineb-khaled/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/KhaledZeineb" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+        </section>
+        <footer class="text-center">
+            <p>&copy; 2023 Zeineb Khaled. Tous droits réservés.</p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
